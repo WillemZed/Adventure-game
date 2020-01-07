@@ -1,0 +1,37 @@
+html {
+	height: 890px;
+	background-color: grey;
+}
+
+body {
+	background-image: url("images/Pikachu lapras.png");
+	background-repeat: no-repeat;
+	font-family: calibiri, sans-serif;
+	background-position: center center;
+	height: 100%;
+}
+
+#game-container {
+	position: absolute;
+	padding-left: 150px;
+}
+
+#inventoryItem {
+	display: none;
+	width: 10px;
+	margin-top: 260px;
+	margin-left: 330px ;
+}
+
+#button1, #button2, #button3 {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 100px;
+	height: 30px;
+	border: line;
+	background-color: green;
+}
+
+#button2, #button3 {
+	margin-left: 10px;
+}
